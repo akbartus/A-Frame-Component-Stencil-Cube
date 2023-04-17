@@ -32,10 +32,9 @@ Example implementation is given below. Image target is in "img" folder:
         <a-camera id="myCam" position='0 0 0' look-controls='enabled: false'></a-camera>
         <a-entity id="myTarget" mindar-image-target='targetIndex: 0'>
             <a-entity 
-                world2local
                 stencil-cube="gltfUrls: 3d/bunny_blue.glb, , , 3d/bunny_white.glb, 3d/bunny_green.glb, 3d/bunny_red.glb; gltfScale: 4; gltfPosition: 0 -0.5 -0.5; gltfRotation: 0 0 0;"
                 position="0 0 0" 
-                scale="1 1 1"></a-entity>
+                scale="0.5 0.5 0.5"></a-entity>
         </a-entity>
     </a-scene>
 </body>
