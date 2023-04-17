@@ -1,6 +1,6 @@
 # A-Frame Component: Stencil Cube
-<img alt="Screenshot" src="img/screenshot_1.jpg" width="600">
-<img alt="Screenshot" src="img/screenshot_2.jpg" width="600">
+<img alt="Screenshot" src="img/screenshot_1.jpg" width="300">
+<img alt="Screenshot" src="img/screenshot_2.jpg" width="300">
 
 ### **Description / Rationale**
 This is a component, which which demonstrates stencil buffer feature enabled through Three.Js library and A-Frame. With the stencil buffer you can hide or show parts of mesh objects. The given component creates a magic cube, where each cube face shows or hides certain 3D models. The project was inspired by Tamani Coding (Genka)'s <a href="https://github.com/tamani-coding/threejs-stencil-buffer-example">work</a>. The component can be used in product demonstration and other creative undertakings.   
