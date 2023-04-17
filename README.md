@@ -17,7 +17,7 @@ To see the component at work add "stencil-cube" component to any empty entity. T
 * stencilTransparent: { type: 'boolean', default: false } - if enabled, makes stencil background transparent.
 * stencilOpacity: { type: 'number', default: 1 } - if "stencilTransparent" is inabled, then transparency can be changed (accepts value from 0 to 1).
 
-Example implementation is given below:
+Example implementation is given below. Image target is in "img" folder:
 ```
 <html>
 <head>
