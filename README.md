@@ -2,7 +2,7 @@
 <img alt="Screenshot" src="img/screenshot.jpg" width="600">
 
 ### **Description / Rationale**
-This is a component, which which demonstrates stencil buffer feature enabled through Three.Js library and A-Frame. With the stencil buffer you can hide or show parts of mesh objects. The given component creates a magic cube, where each cube face shows or hides certain 3D models. The project was inspired by Tamani Coding (Genka)'s <a href="https://github.com/tamani-coding/threejs-stencil-buffer-example">work</a>.  
+This is a component, which which demonstrates stencil buffer feature enabled through Three.Js library and A-Frame. With the stencil buffer you can hide or show parts of mesh objects. The given component creates a magic cube, where each cube face shows or hides certain 3D models. The project was inspired by Tamani Coding (Genka)'s <a href="https://github.com/tamani-coding/threejs-stencil-buffer-example">work</a>. The component can be used in product demonstration and other creative undertakings.   
 
 ### **Instructions**
 To see the component at work add "stencil-cube" component to any empty entity. The component has the following attributes: 
@@ -44,9 +44,7 @@ Example implementation is given below:
 
 
 ### **Tech Stack**
-The project is powered by MindAR.js, AFrame and Three.js. CSS3d Renderer features are made available through Websurfaces component.
-
-<b>Please note:</b> CSS3d will not work in web VR mode!
+The project is powered by MindAR.js, AFrame and Three.js. 
 
 ### **Demo**
-To see the application at work: [Demo application](https://webar-youtube.glitch.me/)
+See demo of the component here: [Demo](https://webar-youtube.glitch.me/)
