@@ -1,4 +1,4 @@
-# MindAR.Js Related Component: Stencil Cube
+# A-Frame Component: Stencil Cube
 <img alt="Screenshot" src="img/screenshot.jpg" width="600">
 
 ### **Description / Rationale**
