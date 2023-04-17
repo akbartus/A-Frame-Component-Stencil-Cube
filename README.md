@@ -44,7 +44,7 @@ Example implementation is given below. Image target is in "img" folder:
 
 
 ### **Tech Stack**
-The project is powered by MindAR.js, AFrame and Three.js. 
+The project is powered by MindAR.js, AFrame and Three.js. 3D model of the bunny was taken from <a href="http://graphics.stanford.edu/data/3Dscanrep/" >here</a> 
 
 ### **Demo**
 See demo of the component here: [Demo](https://stencil-cube.glitch.me/)
