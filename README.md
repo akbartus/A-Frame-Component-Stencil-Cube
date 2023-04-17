@@ -47,4 +47,4 @@ Example implementation is given below:
 The project is powered by MindAR.js, AFrame and Three.js. 
 
 ### **Demo**
-See demo of the component here: [Demo](https://webar-youtube.glitch.me/)
+See demo of the component here: [Demo](https://stencil-cube.glitch.me/)
