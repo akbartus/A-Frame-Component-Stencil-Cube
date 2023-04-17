@@ -1,11 +1,22 @@
-# Projecting Youtube Videos on Web AR
+# MindAR.Js Related Component: Stencil Cube
 <img alt="Screenshot" src="img/screenshot.jpg" width="600">
 
 ### **Description / Rationale**
-This is a small project, which demonstrates one of the most popular requested features - the possibility of projecting Youtube videos on web based augmented reality powered by MindAR.js and AFrame. The project uses slightly modified version of <a href="https://github.com/ryota-mitarai/aframe-websurfaces">AFrame Websurfaces component created by Ryota Mitarai</a> in combination with world to local matrix transforms powered by Three.js/AFrame.  
+This is a component, which which demonstrates stencil buffer feature enabled through Three.Js library and A-Frame. With the stencil buffer you can hide or show parts of mesh objects. The given component creates a magic cube, where each cube face shows or hides certain 3D models. The project was inspired by Tamani Coding (Genka)'s <a href="https://github.com/tamani-coding/threejs-stencil-buffer-example">work</a>.  
 
 ### **Instructions**
-To see the project at work just copy the repository to your local server and explore all the functionality. To change video and its size, just insert Youtube embedded video url and define its width and height (for more information on websurfaces component, please refer to the original component):
+To see the component at work add "stencil-cube" component to any empty entity. The component has the following attributes: 
+
+* gltfScale: { type: 'number', default: 1 } - indicate scale of attached gltf file
+* gltfPosition: { type: 'vec3', default: { x: 0, y: 0, z: -1 } } - position of attached gltf files
+* gltfRotation: { type: 'vec3', default: { x: 0, y: 0, z: 0 } } - rotation of attached gltf files
+* applyColor: { type: 'boolean', default: false } - if solid color must be applied to a gltf file, else it uses original texture/color of gltf file
+* objectColor: { type: 'string', default: 'green' } - if true applies solid color to all gltf files
+* planeColor: { type: 'string', default: '#ffffff' } - the color of the background of stencil
+* gltfUrls: { type: 'array', default: [] } - link/s to gltf files, which appear inside each stencil
+* stencilTransparent: { type: 'boolean', default: false } - if enabled, makes stencil background transparent
+* stencilOpacity: { type: 'number', default: 1 } - if "stencilTransparent" is inabled, then transparency can be changed (accepts value from 0 to 1).
+
 ```
 websurface="url:https://www.youtube.com/embed/L6iKapYgN94; width:3.5; height:2.0;"
 ```
